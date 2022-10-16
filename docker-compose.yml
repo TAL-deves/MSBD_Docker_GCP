@@ -9,5 +9,5 @@ services:
         build:
             context: ./Frontend
         ports:
-            - "80:90"
-            - "443:445"
+            - "90:90"
+            - "445:445"
