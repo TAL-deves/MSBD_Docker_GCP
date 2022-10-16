@@ -77,8 +77,10 @@ COPY privkey.pem /etc/nginx/conf.d/privkey.pem
 # Copies static resources from builder stage  --from=builder
 COPY --from=builder ./Frontend/build /var/www/html
 
-EXPOSE 80
-EXPOSE 443
+# EXPOSE 80
+# EXPOSE 80
+EXPOSE 90
+EXPOSE 445
 
 RUN chown nginx.nginx /var/www/html/ -R
 # Containers run nginx with global directives and daemon off
