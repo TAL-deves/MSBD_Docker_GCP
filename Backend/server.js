@@ -2144,6 +2144,9 @@ app.post("/api/user-reviews", async (req, res) => {
 
 //! Testing point
 
+app.get("/api/atesting", async (req, res) => {
+res.send("I'm on!")
+});
 app.post("/api/keepalive", async (req, res) => {
 res.send("I'm on!")
 });
