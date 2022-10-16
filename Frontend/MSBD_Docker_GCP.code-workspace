@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "MSBD_Docker_GCP",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"deepscan.enable": true
+	}
+}

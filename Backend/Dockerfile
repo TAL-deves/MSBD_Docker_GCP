@@ -8,7 +8,7 @@ WORKDIR ./Backend
 COPY package*.json ./
 
 # run npm install in our local machine
-RUN npm install
+RUN npm install --force
 
 # copy the generated modules and all other files to the container
 COPY . .
